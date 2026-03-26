@@ -1,3 +1,4 @@
+/* Body dan layout */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,10 +10,12 @@ body {
   height: 100vh;
 }
 
+/* Container tengah */
 .container {
   text-align: center;
 }
 
+/* Tombol utama */
 .btn {
   display: inline-block;
   margin: 10px;
@@ -22,10 +25,20 @@ body {
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s;
 }
 
+.btn:hover {
+  background: #00a4cc;
+}
+
+/* Tombol secondary */
 .btn.secondary {
   background: transparent;
   border: 1px solid #00c6ff;
   color: white;
+}
+
+.btn.secondary:hover {
+  background: rgba(0, 198, 255, 0.2);
 }
