@@ -1,2 +1,16 @@
-# my-ai-landing
-A high-converting landing page template for Web3 and AI projects. Built for speed, simplicity, and seamless deployment with automation-ready structure.
+# My AI Landing 🚀
+
+A high-converting landing page for AI, Web3, and automation projects.
+
+## Features
+- Fast & lightweight
+- Ready to deploy on Netlify
+- Customizable for campaigns & airdrops
+
+## Live Demo
+(isi nanti link Netlify kamu)
+
+## Tech
+- HTML
+- CSS
+- JavaScript
