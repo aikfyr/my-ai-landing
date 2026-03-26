@@ -1,44 +1,32 @@
-/* Body dan layout */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0f2027, #2c5364);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My AI Agent Hub</title>
 
-/* Container tengah */
-.container {
-  text-align: center;
-}
+  <!-- SEO -->
+  <meta name="description" content="AI, Web3, and automation landing page for campaigns and airdrops">
 
-/* Tombol utama */
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 24px;
-  background: #00c6ff;
-  color: black;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: 0.3s;
-}
+  <!-- Open Graph -->
+  <meta property="og:title" content="My AI Agent Hub">
+  <meta property="og:description" content="AI-powered Web3 landing page for automation and campaigns">
+  <meta property="og:type" content="website">
 
-.btn:hover {
-  background: #00a4cc;
-}
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>🚀 My AI Agent Hub</h1>
+      <p>Automation • Web3 • AI Powered</p>
 
-/* Tombol secondary */
-.btn.secondary {
-  background: transparent;
-  border: 1px solid #00c6ff;
-  color: white;
-}
-
-.btn.secondary:hover {
-  background: rgba(0, 198, 255, 0.2);
-}
+      <div class="buttons">
+        <a href="https://your-ref-link.com" class="btn">Join Campaign</a>
+        <a href="https://dashboard-link.com" class="btn secondary">View Dashboard</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
